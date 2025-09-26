@@ -28,17 +28,18 @@ Lien vers le site : https://ninasingla.fr
 
 ## Organisation du dépôt
 
+```
 ninasingla.fr/
 ├── index.html
 ├── style.css
 ├── script.js
 ├── images/
-│   ├── logos/
-│   ├── illustrations/
-│   └── private-images/  (non inclus dans le dépôt public - contient des images personnelles)
+│ ├── logos/
+│ ├── illustrations/
+│ └── private-images/ (non inclus dans le dépôt public - contient des images personnelles)
 ├── README.md
 └── LICENSE
-
+```
 ---
 
 ## License
