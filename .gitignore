@@ -1,0 +1,14 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers d'éditeur
+.vscode/
+.idea/
+
+# Dossiers de build (si tu ajoutes Node.js ou un outil de build plus tard)
+node_modules/
+dist/
+
+# Images personnelles à ne pas publier
+images/private-images/
