@@ -1,0 +1,143 @@
+/* ---- FONT ---- */ 
+
+@font-face {
+  font-family: "MPlusCustom";
+  src: url("font/static/MPLUS1-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MPlusCustom";
+  src: url("font/static/MPLUS1-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MPlusCustom";
+  src: url("font/static/MPLUS1-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MPlusCustom";
+  src: url("font/static/MPLUS1-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MPlusCustom";
+  src: url("font/static/MPLUS1-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MPlusCustom";
+  src: url("font/static/MPLUS1-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* ---- RESET ---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "MPlusCustom";
+}
+
+/* ---- BODY ---- */
+
+body {
+
+    color: black;
+}
+
+/* ---- HEADER ----*/
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/backgroud3.jpg);       /* IMG TEST !!! À MODIFIER !!! */
+    background-size: cover;
+}
+
+#site-name {
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#site-title {
+    position: absolute;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* ---- NAVBAR ---- */
+
+#navbar {
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-right: 2%;
+}
+
+#navbar a {
+    color : white;
+}
+
+
+#nav-links ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-links ul li {
+    margin: 0 25px;
+}
+
+#menu-hamburger {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    width: 80px;
+
+}
+
+/* ---- RESPOSIVE ---- */
+@media screen and (max-width: 850px) {
+    #nav-links {
+        display: none;
+    }
+
+    #menu-hamburger {
+        display: block;
+    }
+}
+
+
+
+/* ---- LIENS ET TUTOS --- */
+/* ---- NAVBAR & MENU HAMBURGER : https://www.youtube.com/watch?v=HQopEEurQYE */
